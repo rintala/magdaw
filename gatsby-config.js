@@ -1,20 +1,20 @@
-require(`dotenv`).config()
+require(`dotenv`).config();
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.js
-    siteTitle: `Jodie`,
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
-    siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://jodie.lekoarts.de`,
+    siteTitle: `Magda Wolde Selassie`,
+    siteTitleAlt: `Magda Wolde Selassie - Model from Sweden`,
+    siteHeadline: `Magda Wolde Selassie - Model from Sweden`,
+    siteUrl: `https://magdaw.se`,
     siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
     siteLanguage: `en`,
-    siteImage: `/banner.jpg`,
-    author: `@lekoarts_de`,
+    siteImage: `/magdaw-logo.png`,
+    author: `@magda.w.selassie`,
   },
   plugins: [
     {
@@ -22,8 +22,8 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Art`, slug: `/art` },
+          { name: `Moods`, slug: `/projects` },
+          /* { name: `Art`, slug: `/art` }, */
           { name: `About`, slug: `/about` },
         ],
       },
@@ -39,6 +39,10 @@ module.exports = {
           {
             name: `Work Sans`,
             file: `https://fonts.googleapis.com/css2?family=Work+Sans:wght@400..700&display=swap`,
+          },
+          {
+            name: `Courgette`,
+            file: `https://fonts.googleapis.com/css2?family=Courgette&display=swap`,
           },
         ],
       },
@@ -80,4 +84,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};

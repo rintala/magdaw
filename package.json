@@ -5,7 +5,7 @@
   "version": "0.1.5",
   "author": "LekoArts <hello@lekoarts.de>",
   "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-jodie",
+  "starter-name": "magdaw",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -21,6 +21,7 @@
     "gatsby-omni-font-loader": "^2.0.0",
     "gatsby-plugin-gatsby-cloud": "^4.18.1",
     "gatsby-plugin-manifest": "^4.18.1",
+    "gatsby-plugin-mdx": "^3.18.1",
     "gatsby-plugin-sitemap": "^5.18.1",
     "gatsby-plugin-webpack-bundle-analyser-v2": "^1.1.27",
     "react": "^18.0.0",
