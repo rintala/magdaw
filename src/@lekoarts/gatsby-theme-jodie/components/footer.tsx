@@ -40,6 +40,38 @@ const Footer = ({ bg }: { bg: string }) => {
         variant: `footer`,
       }}
     >
+      <div style={{ marginBottom: "40px" }}>
+        <div>
+          <a href="http://nischmanagement.se/magda-wolde-selassie">
+            Nisch Management
+          </a>
+          &nbsp;- Nordics
+        </div>
+        <div>
+          <a href="https://www.newmadison.fr/women/management/3111-magda-wolde-selassie/">
+            New Madison
+          </a>{" "}
+          &nbsp;- France
+        </div>
+        <div>
+          <a href="https://core-management.eu/women/magda-wolde-selassie/">
+            Core Management
+          </a>
+          &nbsp;- Germany
+        </div>
+        <div>
+          <a href="https://www.theclawmodels.com/profile/675_2_magda_selassie?city=milan&board=women&category=all">
+            The Claw
+          </a>
+          &nbsp;- Italy
+        </div>
+        <div>
+          <a href="https://www.wilhelmina.com/london/women/development/3823-magda-wolde-selassie/">
+            Wilhelmina
+          </a>
+          &nbsp;- UK
+        </div>
+      </div>
       <div>
         &copy; {new Date().getFullYear()} by {siteTitle}.
       </div>
